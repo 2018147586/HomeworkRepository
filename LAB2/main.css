@@ -1,0 +1,49 @@
+h1 {
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loginButton {
+    margin:5px;
+    padding:5px;
+    border:5px;
+    color:black;
+    text-align: center;
+}
+
+.input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    width:fit-content;
+    height:fit-content;
+}
+
+.buttons1 {
+    font-family: 'Courier New', Courier, monospace;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    background-color: greenyellow;
+}
+.buttons2 {
+    font-family: 'Courier New', Courier, monospace;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    background-color:burlywood;
+}
+
+/*
+• background-color 
+• text-align check
+• padding check
+• margin check
+• border check
+• font-size check
+• font-family check
+• color check
+• width check
+• height check
+*/
