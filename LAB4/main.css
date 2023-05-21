@@ -106,29 +106,22 @@ body {
     width:80%;
     height:100%;
     float:right;
-    background:rgb(198, 198, 198)
-}
-
-.product {
-    width:300px;
+    background:rgb(198, 198, 198);
+    position:relative
 }
 
 
-
-.item {
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    padding:5px;
-    margin:2px;
-    /* display:flex;
-    flex-direction:column;
-    flex-wrap:wrap; */
-    width:230px;
-    height:500px;
-    flex-wrap:wrap;
-    flex-direction:row
+img {
+    width:50%;
 }
+
+.imgDescriptor {
+    width:50%;
+    height:400px;
+    float:left
+}
+
+
 
 /*
 • background-color 
