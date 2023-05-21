@@ -1,0 +1,144 @@
+h1 {
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1020px;
+    background:rgb(223, 223, 223)
+    height:100%;
+}
+
+.button {
+    margin:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:5px;
+    border:5px;
+    color:black;
+    text-align: center;
+    width:200px;
+}
+
+.input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    width:fit-content;
+    height:fit-content;
+}
+
+.buttons1 {
+    font-family: 'Courier New', Courier, monospace;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    background-color: greenyellow;
+}
+.buttons2 {
+    font-family: 'Courier New', Courier, monospace;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    background-color:burlywood;
+}
+
+.welcome {
+    text-align: center;
+    animation-name: "welcome_animation";
+    animation-duration: 3s;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex_container_header {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+@media only screen and (min-width:0px) {
+    .flex_container_header {
+        flex-direction:column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:481px) {
+    .flex_container_header {
+        flex-direction:column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:801px) {
+    .flex_container_header {
+        flex-direction:row;
+        justify-content: center;
+    }
+}
+
+
+.flex_container_body {
+    border-color: black;
+    border-width: 3px;
+    margin:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.search_container {
+    border-color: black;
+    border-width: 3px;
+    width:20%;
+    height: 100%;
+    float:left;
+    background:rgb(198, 198, 198)
+}
+
+.product_container {
+    border-color: black;
+    border-width: 3px;
+    border-color: black;
+    width:80%;
+    height:100%;
+    float:right;
+    background:rgb(198, 198, 198)
+}
+
+.product {
+    width:300px;
+}
+
+
+
+.item {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding:5px;
+    margin:2px;
+    /* display:flex;
+    flex-direction:column;
+    flex-wrap:wrap; */
+    width:230px;
+    height:500px;
+    flex-wrap:wrap;
+    flex-direction:row
+}
+
+/*
+• background-color 
+• text-align check
+• padding check
+• margin check
+• border check
+• font-size check
+• font-family check
+• color check
+• width check
+• height check
+*/

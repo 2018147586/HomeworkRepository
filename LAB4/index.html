@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<head>
+    <meta charset="utf8">
+    <script>
+        // Infinite scroll
+        window.onscroll = () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                add_book()
+            }
+        };
+
+        function query() {
+            var category = document.getElementById("category").value
+            var name = document.getElementById("name").value;
+            // Get json parse
+            var file = httpRequest.open('GET', '')
+
+            add_book()
+        }
+
+        function filter_category(category) {
+
+        }
+
+        function filter_name(name) {
+
+        }
+
+        function add_book() {
+            var img = document.createElement('img');
+            img.src ='./products/c++1.jpg';
+            img.class = "product";
+            document.getElementById('product_container').appendChild(img);
+        }
+    </script>
+</head>
+<header>
+    <div class="welcome">
+        Welcome to 2018147586 피주원 store
+    </div>
+    <div class="flex_container_header">
+        <a href="index.html" class="button">메인페이지</a>
+        <a href="login.html" class="button">로그인</a>
+        <a href="signup.html" class="button">회원가입</a>
+    </div>
+</header>
+
+<body>
+    <h4>Products</h4>
+    <div class="search_container">
+        <label>category</label><br>
+        <select id="category" form="category_form">
+            <option value="all">All</option>
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+        </select><br>
+        <label>Enter search term</label><br>
+        <input id="name" type="text" value="C++"><br>
+        <button onclick="query()">Filter results</button>
+    </div>
+    <div class="product_container" id="product_container">
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        <br>something
+        
+    </div>
+</body>
+
+

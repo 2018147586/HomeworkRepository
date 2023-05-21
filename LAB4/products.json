@@ -1,0 +1,19 @@
+{
+    {"filename":"products/c++1.jpg", "productname":"C++ and python for beginners", "price":"1", "category":"c++"},
+    {"filename":"products/c++2.jpg", "prodctname":"1-1 Challenges in c++ programming", "price":"2", "category":"c++"},
+    {"filename":"products/c++3.png", "prodctname":"Programming fundamentals a modular structured approach using c++", "price":"3", "category":"c++"},
+    {"filename":"products/c++4.png", "prodctname":"How to think like a computer scientist C++ version", "price":"4", "category":"c++"},
+    {"filename":"products/c++5.png", "prodctname":"Computational physics using c++", "price":"5", "category":"c++"},
+    {"filename":"products/c++6.png", "prodctname":"C++ concurrency in action", "price":"6", "category":"c++"},
+    {"filename":"products/c++7.png", "prodctname":"Programming persistent memory", "price":"7", "category":"c++"},
+    {"filename":"products/c++8.png", "prodctname":"C+++ report multithreading", "price":"8", "category":"c++"},
+    {"filename":"products/java1.jpg", "prodctname":"Jax magazine improving java performance", "price":"9", "category":"java"},
+    {"filename":"products/java2.jpg", "prodctname":"Java EE 7", "price":"1", "category":"java"},
+    {"filename":"products/java3.jpg", "prodctname":"Java magazine performance", "price":"2", "category":"java"},
+    {"filename":"products/java4.png", "prodctname":"Java Java Java object orienteted problem solving", "price":"3", "category":"java"},
+    {"filename":"products/java5.png", "prodctname":"Think hava how to think like a computer scientist", "price":"4", "category":"java"},
+    {"filename":"products/java6.png", "prodctname":"Introduction to programming using java", "price":"5", "category":"java"},
+    {"filename":"products/java7.png", "prodctname":"Java witih BlueJ", "price":"6", "category":"java"},
+    {"filename":"products/java8.png", "prodctname":"Think data structures", "price":"7", "category":"java"}
+
+}
